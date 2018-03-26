@@ -12,7 +12,7 @@ public class HelloApplication {
 
     @RequestMapping("/")
     String index() {
-        return "welcome to my first springboot project";
+        return "<h1>I am so good!</h1>";
     }
     
     @RequestMapping(value = "/sayhi", method = RequestMethod.GET)

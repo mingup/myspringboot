@@ -1,8 +1,4 @@
-package me.xnow.hello;
-
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
+package me.xnow;
 import org.springframework.boot.*;
 import org.springframework.boot.autoconfigure.*;
 import org.springframework.stereotype.*;
@@ -29,10 +25,3 @@ public class HelloApplication {
     }
 }
 
-
-public class HelloApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(HelloApplication.class, args);
-	}
-}
